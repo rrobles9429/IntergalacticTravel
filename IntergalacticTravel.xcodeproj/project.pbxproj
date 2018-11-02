@@ -12,6 +12,7 @@
 		A2A8D406218B60F800E82D4A /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A2A8D404218B60F800E82D4A /* Main.storyboard */; };
 		A2A8D408218B610000E82D4A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A2A8D407218B610000E82D4A /* Assets.xcassets */; };
 		A2A8D40B218B610000E82D4A /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A2A8D409218B610000E82D4A /* LaunchScreen.storyboard */; };
+		A2EE2C51218CAF0700404188 /* StarViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A2EE2C50218CAF0700404188 /* StarViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +23,7 @@
 		A2A8D407218B610000E82D4A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		A2A8D40A218B610000E82D4A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		A2A8D40C218B610000E82D4A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A2EE2C50218CAF0700404188 /* StarViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StarViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -57,6 +59,7 @@
 				A2A8D400218B60F700E82D4A /* AppDelegate.swift */,
 				A2A8D402218B60F700E82D4A /* ViewController.swift */,
 				A2A8D404218B60F800E82D4A /* Main.storyboard */,
+				A2EE2C50218CAF0700404188 /* StarViewController.swift */,
 				A2A8D407218B610000E82D4A /* Assets.xcassets */,
 				A2A8D409218B610000E82D4A /* LaunchScreen.storyboard */,
 				A2A8D40C218B610000E82D4A /* Info.plist */,
@@ -136,6 +139,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				A2A8D403218B60F700E82D4A /* ViewController.swift in Sources */,
+				A2EE2C51218CAF0700404188 /* StarViewController.swift in Sources */,
 				A2A8D401218B60F700E82D4A /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

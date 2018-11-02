@@ -25,6 +25,21 @@
             </objects>
             <point key="canvasLocation" x="730" y="793"/>
         </scene>
+        <!--Star View Controller-->
+        <scene sceneID="NkO-8z-vjL">
+            <objects>
+                <viewController id="5DZ-lw-1xw" customClass="StarViewController" customModule="IntergalacticTravel" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="jfG-9k-q9o">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <viewLayoutGuide key="safeArea" id="SSl-a5-IzN"/>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="sTK-9x-yOy" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1425" y="793"/>
+        </scene>
         <!--Navigation Controller-->
         <scene sceneID="40q-Xf-jiA">
             <objects>
