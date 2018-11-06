@@ -10,13 +10,17 @@ import UIKit
 
 class StarViewController: UIViewController {
     @IBOutlet weak var imageView: UIImageView!
+    var isRedDwarf: Bool!
     
     override func viewDidLoad() {
         super.viewDidLoad()
 
-        // Do any additional setup after loading the view.
+        if isRedDwarf {
+            imageView.image = UIImage(named: "redDwarf")
+        }else{
+            imageView.image = UIImage(named: "blueDwarf")
+        }
     }
-    
 
     /*
     // MARK: - Navigation
